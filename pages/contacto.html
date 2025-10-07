@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Music - Nosotros</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body id="body-contacto">
+    <header>
+        <section class="navbar-container">
+            <nav class="navbar">
+                <div class="navbar-logo">
+                    <a href="../index.html">West Music</a>
+                </div>
+                <div class="navbar-nav">
+                    <a href="../index.html">Home</a>
+                    <a href="programacion.html">El evento</a>
+                    <a href="contacto.html">Nosotros</a>
+                    <a href="contacto.html#preventa">Preventa</a>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="aside-container">
+            <aside>
+                <a href="contacto.html#body-contacto">INICIO</a>
+                <a href="contacto.html#nosotros">NOSOTROS</a>
+                <a href="contacto.html#contacto">CONTACTO</a>
+                <a href="contacto.html#preventa">PREVENTA</a>
+                <a href="contacto.html#redes-sociales">REDES</a>
+            </aside>
+        </section>
+         <section class="container">
+            <article id="nosotros">
+                <h1>Nosotros</h1>
+                <p>
+                    ¿Tenés alguna duda, consulta o necesitás asistencia antes del festival?<br> El equipo de organización está disponible para ayudarte con cualquier información relacionada con entradas, horarios, accesos o servicios dentro del predio.
+                </p>
+                <ul>
+                    <li>Correo electrónico: contacto@westmusic.com</li>
+                    <li>Teléfono: +54 1122334455</li>
+                    <li>Oficinas: Tte. Manuel Origone 151, Hurlingham</li>
+                    <li>Horarios de atención: Lunes a Viernes - 10:00hs. a 18:00hs.</li>
+                </ul>
+                <p>
+                    También podés completar el formulario de esta sección y nuestro equipo te responderá lo antes posible.Por favor, incluí tu nombre completo, correo de contacto y el motivo de la consulta para agilizar la respuesta.
+                </p>
+            </article>
+            <article id="contacto">
+                <form>
+                    <div class="formulario">
+                        <h3>Formulario de contacto</h3>
+                        <div class="formulario-text">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" placeholder= "Introduzca su nombre" name="nombre" class="text-input">
+                        </div>
+                        <div class="formulario-text">
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="Introduzca su email" name="email" class="text-input">
+                        </div>
+                        <div class="formulario-text">
+                            <label for="motivo">Motivo:</label>
+                            <input type="text" placeholder= "Motivo" name="motivo" class="text-input">
+                        </div>
+                        <div class="formulario-text">
+                            <label for="message">Consulta:</label>
+                            <textarea name="message" id="area-comentarios" cols="40" rows="10" placeholder="Escriba su consulta aquí." class="textarea-input"></textarea>
+                            <button class="contacto-button">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </article>
+            <article id="preventa">
+                <h2>Preventa de entradas</h2>
+                <form>
+                    <div class="formulario">
+                        <div class="formulario-text">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" placeholder= "Introduzca su nombre" name="nombre" class="text-input">
+                        </div>
+                        <div class="formulario-text">
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="Introduzca su email" name="email" class="text-input">
+                        </div>
+                        <div class="formulario-text">
+                            <label for="fecha-asistencia">Fecha de asistencia:</label>
+                            <input type="text" placeholder="Fecha de asistencia" name="fecha-asistencia" class="text-input">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <h4>Tipo de entrada:</h4>
+                        <div class="formulario-item">
+                            <label for="entrada-general">General</label>
+                            <input id="entrada-general" type="radio" name="tipo-entrada">
+                        </div>
+                        <div class="formulario-item">
+                            <label for="entrada-vip">VIP</label>
+                            <input id="entrada-vip" type="radio" name="tipo-entrada">
+                        </div>
+                        <div class="formulario-item">
+                            <label for="entrada-campo-delantero">Campo delantero</label>
+                            <input id="entrada-campo-delantero" type="radio" name="tipo-entrada">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <h4>Medios de pago:</h4>
+                        <div class="formulario-item">
+                            <label for="tarjeta">Tarjeta</label>
+                            <input id="tarjeta" type="radio" name="tipo-medio-de pago">
+                        </div>
+                        <div class="formulario-item">
+                            <label for="transferencia">Transferencia</label>
+                            <input id="transferencia" type="radio" name="tipo-medio-de pago">
+                        </div>
+                        <div class="formulario-item">
+                            <label for="billetera-virtual">Billetera virtual</label>
+                            <input id="billetera-virtual" type="radio" name="tipo-medio-de pago">
+                        </div>
+                        <div class="formulario-item">
+                            <label for="Efectivo">Efectivo</label>
+                            <input id="Efectivo" type="radio" name="tipo-medio-de pago">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <h4>Intereses:</h4>
+                        <div class="formulario-item">
+                            <label for="merchandising">Merchandising</label>
+                            <input id="merchandising" type="checkbox" name="intereses">
+                        </div>
+                        <div class="formulario-item">
+                            <label for="meet&greet">Meet&Greet</label>
+                            <input id="meet&greet" type="checkbox" name="intereses">
+                        </div>
+                        <div class="formulario-item">
+                            <label for="guardaropa">Guardaropa</label>
+                            <input id="guardaropa" type="checkbox" name="intereses">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <div class="formulario-text">
+                            <label for="genero-favorito">¿Cual es tu género musical favorito?</label>
+                        </div>
+                        <div class="formulario-text">
+                            <input list="genero-favorito" id="formulario-genero-favorito" placeholder="Generos" name="genero-favorito" class="text-input">
+                            <datalist id="genero-favorito">
+                                <option value="Techno"></option>
+                                <option value="Electrónica"></option>
+                                <option value="House"></option>
+                                <option value="Dance"></option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <div class="formulario-text">
+                            <label for="message">Comentarios:</label>
+                            <textarea name="message" id="area-comentarios" cols="40" rows="10" placeholder="Por favor, comunicanos tus comentarios aquí..." class="textarea-input"></textarea>
+                            <button class="contacto-button">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </article>
+            <article id="redes-sociales">
+                <h2>Nuestras redes sociales</h2>
+                <div id="icon-area">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="../assets/images/social-media/instagram.png" alt="Instagram" title="Instagram" width="50" class="social-media-icon">
+                    </a>
+                    <a href="https://www.x.com/" target="_blank">
+                        <img src="../assets/images/social-media/x.png" alt="X" title="X" width="50" class="social-media-icon">
+                    </a>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        <img src="../assets/images/social-media/tik-tok.png" alt="TikTok" title="TikTok" width="50" class="social-media-icon">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="../assets/images/social-media/youtube.png" alt="Youtube" title="Youtube" width="50" class="social-media-icon">
+                    </a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <div class="footer">
+                <div id="footer-contacto">
+                    <p>
+                        Autor: Sebastián Acuña<br>
+                        Contacto: sebastianariel.acuna@estudiantes.unahur.edu.ar
+                    </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
